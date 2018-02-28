@@ -16,17 +16,16 @@ To uninstall delete the [plugin files](update.ini).
 
 The plugin adds 2 markdown tags for you to use in the edit setup section on each page individually. The code goes into the header `<head></head>` of that page, in between the included `<script></script>` tags.
 
-## How to configure a blog?
-
 You can type the markup tags into the page edit/setup section on any and/or every page:
 
 `googleStructData` allows the addition of Structured Markup Language.
+
 `customHeaderScript` allows the addition of custom java script code.
+
 
 ## Example
 
 Adding Google SML:
-
     --
     Title: ...
     TitleHeader: ...
@@ -37,8 +36,8 @@ Adding Google SML:
     --
 
 
-Adding Custom Javascript:
 
+Adding Custom Javascript:
     --
     Title: ...
     TitleHeader: ...
@@ -50,5 +49,4 @@ Adding Custom Javascript:
 
 
 ## Developer
----------
 Peter Danshov for Datenstrom Yellow.
