@@ -14,7 +14,7 @@ To uninstall delete the [plugin files](update.ini).
 
 ## How to use the SEO plugin?
 
-The plugin adds 2 markdown tags for you to use in the edit setup section on each page individually. The code goes into the header `<head></head>` of that page, in between the included `<script></script>` tags.
+The plugin adds 2 markdown tags for you to use in the edit/setup section on each page individually. The code goes in as content of the tag/s and will end up in the header `<head></head>` of that page, in between the `<script></script>` tags, which are already included for you.
 
 You can type the markup tags into the page edit/setup section on any and/or every page:
 
@@ -22,10 +22,13 @@ You can type the markup tags into the page edit/setup section on any and/or ever
 
 `customHeaderScript` allows the addition of custom java script code.
 
+All code must be in-line (no newline/carriage returns).
+
 
 ## Example
 
 Adding Google SML:
+
     --
     Title: ...
     TitleHeader: ...
@@ -38,6 +41,7 @@ Adding Google SML:
 
 
 Adding Custom Javascript:
+
     --
     Title: ...
     TitleHeader: ...
